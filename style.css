@@ -22,3 +22,24 @@ footer {
     font-style: italic;
 
 }
+
+/* link que ainda não foi visitado */
+a:link { 
+    text-decoration:none; 
+    color: white;
+}
+
+/* link que foi visitado */
+a:visited {
+    color: white;
+}
+
+/* mouse over */
+a:hover {
+    color: #052b2b;
+}
+
+/* link selecionado */
+a:active {
+    color: #3ecaca;
+}
